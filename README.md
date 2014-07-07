@@ -1,5 +1,23 @@
 # Nature InDesign to Epub production process
 
+*	![Set up InDesign file(s)](#set-up-indesign-files)
+*	![File info](#file-info)
+*	![image](#images)
+*	![cover](#cover)
+*	![Page furniture](#page-furniture)
+*	![Document flow](#document-flow)
+*	![Pargraph Styles](#paragraph-styles)
+*	![Bold and italic text](#bold-and-italic-text)
+*	![Export tags](#export-tags)
+*	![Tabel of contents](#table-of-contents)
+*	![Export options](#export-options)
+*	![Preview the epub](#preview-the-epub)
+*	![Post export editing](#post-export-editing)
+*	![Amend CSS](#amend-css)
+*	![Validate the final Epub file](#validate-the-final-epub-file)
+*	![Create a mobi file for kindle devices](#create-a-mobi-file-for-kindle-devices)
+
+
 ## Set up InDesign file(s)
 
 Use InDesign CC rather than CS5. Adobe have made many improvements to the epub export in the latest version of InDesign.
@@ -32,7 +50,7 @@ Link all text boxes and insert all images into the text at the position you woul
 
 ![Linked text boxes in InDesign](images/link-text-boxes.png)
 
-### Paragraph styles
+### Paragraph Styles
 
 All text formatting should be applied via Paragraph Styles.
 
