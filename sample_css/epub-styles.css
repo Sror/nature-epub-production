@@ -1,0 +1,155 @@
+/* @font-face rules from indesign */
+/* If you delete any fonts be sure to remove them from the content.opf file */
+
+@font-face {
+	font-weight:bold;
+	font-style:normal;
+	font-family:Calibri;
+	src : url("../font/Calibri-Bold.ttf");
+}
+@font-face {
+	font-weight:bold;
+	font-style:italic;
+	font-family:Calibri;
+	src : url("../font/Calibri-BoldItalic.ttf");
+}
+@font-face {
+	font-weight:bold;
+	font-style:oblique;
+	font-family:Calibri;
+	src : url("../font/Calibri-BoldItalic.ttf");
+}
+@font-face {
+	font-weight:normal;
+	font-style:normal;
+	font-family:"Glosa Math Roman";
+	src : url("../font/GlosaMath-Roman.otf");
+}
+@font-face {
+	font-weight:normal;
+	font-style:italic;
+	font-family:"Glosa Math Roman";
+	src : url("../font/GlosaMath-RomanItalic.otf");
+}
+@font-face {
+	font-weight:normal;
+	font-style:oblique;
+	font-family:"Glosa Math Roman";
+	src : url("../font/GlosaMath-RomanItalic.otf");
+}
+@font-face {
+	font-weight:360;
+	font-style:normal;
+	font-family:"Knockout 49 Liteweight";
+	src : url("../font/Knockout-49Liteweight.otf");
+}
+@font-face {
+	font-weight:bold;
+	font-style:normal;
+	font-family:"Minion Pro";
+	src : url("../font/MinionPro-Bold.otf");
+}
+@font-face {
+	font-weight:normal;
+	font-style:italic;
+	font-family:"Minion Pro";
+	src : url("../font/MinionPro-It.otf");
+}
+@font-face {
+	font-weight:normal;
+	font-style:oblique;
+	font-family:"Minion Pro";
+	src : url("../font/MinionPro-It.otf");
+}
+@font-face {
+	font-weight:normal;
+	font-style:normal;
+	font-family:"Minion Pro";
+	src : url("../font/MinionPro-Regular.otf");
+}
+@font-face {
+	font-weight:normal;
+	font-style:normal;
+	font-family:"Times New Roman";
+	src : url("../font/TimesNewRomanPSMT.ttf");
+}
+
+/* Intro page */
+
+h1.summer-books-main {
+	color:#fcb655;
+	text-transform: uppercase;
+	font-family:"Knockout 49 Liteweight", sans-serif;
+}
+
+h2.intro {
+	color:#000000;
+	font-weight: normal;
+	font-size: 1em;
+	font-family:"Glosa Math Roman", serif;
+}
+
+p.epub-cover-image {
+	font-size: 0.8em;
+}
+
+/* Review pages */
+
+h1.summer-books-title {
+	margin-bottom: 0;
+	color:#959480;
+	text-align: left;
+	-webkit-hyphens: none;
+	hyphens: none;
+	font-size: 1.5em;
+	font-family:"Glosa Math Roman", serif;
+}
+
+h3.summer-books-details {
+	margin: 0;
+	font-weight: normal;
+	font-style:italic;
+	font-size:1em;
+}
+
+h2.summer-books-author {
+	margin: 0;
+	font-weight: normal;
+	font-variant:small-caps;
+	font-size:1em;
+}
+
+strong.epub-author-details-bold-roman {
+	font-weight:bold;
+	font-style:normal;
+}
+
+em.epub-authro-details-roman {
+	font-weight:normal;
+	font-style:normal;
+}
+
+em.epub-intro-italic {
+	font-weight:normal;
+	font-style:italic;
+}
+
+p.author-details {
+	padding-top: 8px;
+	border-top: 1px solid black;
+	font-style:italic;
+}
+
+p.body-first-para {
+	text-indent:0;
+}
+
+/* All epub readers add margin so no indent is needed */
+p.body-indent {
+	text-indent:0;
+}
+
+em.epub-italic {
+	font-weight:normal;
+	font-style:italic;
+}
